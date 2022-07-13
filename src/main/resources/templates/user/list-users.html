@@ -45,42 +45,6 @@
                 </tr>
             </tbody>
         </table>
-
-        <!--        <table class="table table-striped" id="libros">
-                        <thead>
-                            <tr>
-                                <th scope="col">Título</th>
-                                <th scope="col">ISBN</th>
-                                <th>Año</th>
-                                <th>Ejemplares</th>
-                                <th>Prestados</th>
-                                <th>Restantes</th>
-                                 <th >Alta</th>
-                                <th>Autor</th>
-                                <th>Editorial</th>
-                                <th>Acción</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr th:if="${libros.alta == true}" th:each="libros : ${libros}">
-                                <td th:text="${libros.titulo}"></td>
-                                <td th:text="${libros.isbn}"></td>
-                                <td th:text="${libros.anio}"></td>
-                                <td th:text="${libros.ejemplares}"></td>
-                                <td th:text="${libros.ejemplaresPrestados}"></td>
-                                <td th:text="${libros.ejemplaresRestantes}"></td>
-                                <td th:text="${libros.alta}"></td>
-                                <td th:text="${libros.autor.nombre}"></td>
-                                <td th:text="${libros.editorial.nombre}"></td>
-                                <td> <button type="button" class="btn btn-primary">Editar</button>
-                                    <a th:href="@{/libros/baja-libro/__${libros.id}__}" class="btn btn-danger">Dar de Baja</a>
-                            </tr>
-                        </tbody>
-                    </table>-->
-
-
-        <!--        <button class="btn btn-primary" id="agregar" onclick="location.href='libros/formulario-de-libro'"> Agregar libro</button>-->
-
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
