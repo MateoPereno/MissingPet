@@ -18,8 +18,7 @@ import org.springframework.security.core.GrantedAuthority;
 public class User {
     
     @Id
-    @GeneratedValue(generator = "uuid")
-    @GenericGenerator(name = "uuid", strategy = "uuid2")
+    @GeneratedValue
     private String id;
     
     private String name;
