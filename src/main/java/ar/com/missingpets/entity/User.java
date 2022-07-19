@@ -2,17 +2,12 @@
 package ar.com.missingpets.entity;
 
 import ar.com.missingpets.enums.Role;
-import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
-import javax.persistence.OneToMany;
-import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
-import org.springframework.security.core.GrantedAuthority;
 
 @Entity
 public class User {
